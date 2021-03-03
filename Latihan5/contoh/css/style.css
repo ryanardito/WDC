@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper{
+	width: 1000px;
+	height: 3000px;
+	background: black;
+	margin: auto;
+}
+
+.menu{
+	width: 1000px;
+	height: 65px;
+	background: aqua;
+}
+
+.hero{
+	width: 1000px;
+	height: 500px;
+	background: green
+}
+
+.container-list{
+	width: 900px;
+	height: 400px;
+	background: orange;
+	padding: 50px;
+}
+
+.list{
+	width: 290px;
+	height: 400px;
+	background: red;
+	margin-right: 15px;
+	float: left;
+}
+
+.margin{
+	margin-right: 0;
+}
+
+.container-gallery{
+	width: 900px;
+	height: 400px;
+	background: purple;
+	padding: 50px;
+}
+
+.list-gallery{
+	width: 290px;
+	height: 400px;
+	background: aqua;
+	margin-right: 15px;
+	float: left;
+}
+
+.gallery2{
+	width: 580px;
+	height: 192.5px;
+	margin-bottom: 15px; 
+	float: left;
+}
+
+.container-footer{
+	width: 1000px;
+	height: 400px;
+	background: yellow;
+}
+
+.footer{
+	width: 313.3px;
+	padding: 10px;
+	height: 380px;
+	background: red;
+	float: left;
+}
+
+.green{
+	background: green;
+}
+
+.blue{
+	background: blue;
+}
+.container-random{
+	width: 900px;
+	height: 400px;
+	background-color: salmon;
+	padding: 50px;
+}
+.random-2{
+	float: left;
+	width: 400px;
+	height: 150px;
+	background-color: blue;
+	margin-right: 50px;
+}
+.random{
+	width: 850px;
+	height: 150px;
+	background-color: blue;
+	float: left;
+	margin-top: 30px;
+}

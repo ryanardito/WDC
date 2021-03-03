@@ -1,0 +1,58 @@
+body{
+	max-width: 1024px;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 100%;
+	height: auto;
+}
+.container-header{
+	width: 100%;
+	height: auto;
+	padding-bottom: 10px;
+	background-color: #FFF;
+}
+h1{
+	text-align: center;
+	animation: slide 2s;
+	margin-top: 100px;
+}
+.container3{
+	width: 900px;
+	height: 500px;
+	margin: 0 auto;
+}
+.kotak-panjang{
+	width: 200px;
+	height: 450px;
+	background-color: black;
+	margin: 10px 20px; 
+	float: left;
+	animation: leftt 2s ease;
+}
+.kotak3{
+	width: 180px;
+	height: 200px;
+	background-color: black;
+	float: left;
+	margin: 15px;
+}
+@keyframes slide{
+	0%{
+		margin-top: -500px;
+	}
+	100%{
+		margin-left: 0;
+	}
+}
+@keyframes leftt{
+	0%{
+		margin-left: -1000px;
+	}
+	100%{
+		margin-left: 0;
+	}
+}
